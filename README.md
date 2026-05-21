@@ -25,3 +25,5 @@ The project leverages the updated **Gymnasium** library (by Farama Foundation) a
 ```bash
 git clone [https://github.com/YOUR_USERNAME/cartpole-ppo-rl.git](https://github.com/TeGPro/cartpole-ppo-rl.git)
 cd cartpole-ppo-rl
+pip install gymnasium[classic-control] stable-baselines3 torch
+python train_rl_agent.py
