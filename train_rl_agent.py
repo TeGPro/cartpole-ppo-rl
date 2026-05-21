@@ -29,7 +29,7 @@ trained_model = PPO.load("ppo_cartpole", env=env_render)
 
 # Оцениваем
 mean_reward, std_reward = evaluate_policy(trained_model, env_render, n_eval_episodes=3)
-print(f"📊 Средний результат ИИ: {mean_reward:.2f} из 500.00 очков!")
+print(f"Средний результат ИИ: {mean_reward:.2f} из 500.00 очков!")
 
 # Показываем один раунд вживую
 obs, info = env_render.reset()
