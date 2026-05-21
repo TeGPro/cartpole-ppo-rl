@@ -23,5 +23,5 @@ The project leverages the updated **Gymnasium** library (by Farama Foundation) a
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/cartpole-ppo-rl.git](https://github.com/YOUR_USERNAME/cartpole-ppo-rl.git)
+git clone [https://github.com/YOUR_USERNAME/cartpole-ppo-rl.git](https://github.com/TeGPro/cartpole-ppo-rl.git)
 cd cartpole-ppo-rl
