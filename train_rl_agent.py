@@ -21,7 +21,7 @@ model.save("ppo_cartpole")
 print("Модель сохранена в файл 'ppo_cartpole.zip'")
 env.close()
 
-print("\n🎬 Запускаем проверку обученного ИИ...")
+print("\nЗапускаем проверку обученного ИИ...")
 env_render = gym.make("CartPole-v1", render_mode="human")
 
 # Загружаем модель обратно
