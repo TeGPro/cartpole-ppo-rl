@@ -13,7 +13,7 @@ model = PPO(
     device="auto"
 )
 
-print("🏋️‍♂️ Начинаем обучение агента...")
+print("Начинаем обучение агента...")
 model.learn(total_timesteps=10000)
 
 # Сохраняем веса
